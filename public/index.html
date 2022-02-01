@@ -6,10 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="MMBC coming soon" />
+    <link rel="stylesheet" href="./style.css">
     <title>MMBC | Busines Services</title>
+    <script>
+    let preload = document.querySelector('.preloader')
+    this.onload = () => {
+      setTimeout(() => {
+        preload.style.opacity = '0'
+        setTimeout(() => {
+          preload.style.display = 'none'
+        }, 1000)
+      }, 3000)
+    }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div class='preloader'>
+        <div class='spinner_wrap'>
+          <div class='spinner' ></div>
+        </div>
+      </div>
+    )
   </body>
 </html>

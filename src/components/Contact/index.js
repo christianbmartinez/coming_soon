@@ -5,4 +5,5 @@ const Contact = () => (
     <p>For immediate inquiries email Admin@mmbc.llc</p>
   </div>
 )
+
 export default Contact

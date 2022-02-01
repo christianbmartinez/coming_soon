@@ -1,8 +1,7 @@
-import Preloader from './components/Preloader'
 import Timer from './components/Timer'
 import Contact from './components/Contact'
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <div className='container'>
@@ -13,7 +12,6 @@ function App() {
         </h1>
         <Timer />
         <Contact />
-        <Preloader />
       </div>
     </div>
   )
